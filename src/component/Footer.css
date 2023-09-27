@@ -1,0 +1,199 @@
+.footer-box{
+    height: 200px; 
+     width: 970px; 
+    background-color: #5d5dff;
+     margin-left: 154px;
+    margin-top: 70px; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer-text{
+    margin-top: 25px;
+    height:100px;
+    text-align: left;
+    
+}
+.footer-text h3{
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+    font-size: 2rem;
+    color: rgb(255 255 255);
+}
+.footer-text p{
+    margin-bottom: 0.5rem;
+    line-height: 0.25;
+    margin-top: -15px;
+    color: rgb(255 255 255);
+}
+.footer-btn{
+    margin-top: 25px;
+    height:100px;
+    text-align: left;
+    
+}
+.footer-btn input{
+    margin-right: 0.5rem;
+    /* margin-bottom: 0; */
+    color: rgb(255 255 255);
+    background-color: rgb(75 74 207);
+    border-width: 1px;
+    border-radius: 0.125rem;
+    margin-top: 20px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #d9e3ea;
+    height: 25px;
+    width: 250px;
+}
+.btn-sub{
+    color: rgb(93 93 255);
+    background-color: rgb(244 244 255);
+    padding: 0.75rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.125rem;
+    border-width: 1px;
+    border-color: transparent;
+    font-weight: 500;
+    line-height: 1.375;
+    border: 1px solid #d9e3ea;
+    height: 50px;
+    width: 130px;
+    box-sizing: border-box;
+}
+.footer-main{
+    height: 241px;
+    width: 1024px; 
+   /* background-color: #ebebf8; */
+    margin-left: 130px;
+   margin-top: 62px; 
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 72rem;
+   display: flex;
+   flex-direction:column;
+   justify-content: space-evenly;
+   /* align-items: center; */
+}
+.footer-top{
+    display: flex;
+    display: row;
+     justify-content: space-between; 
+    justify-items: left;
+    padding-top: 20px;
+     height: 400px;
+    
+}
+.footer-top div{
+    /* background-color: #07131b; */
+    height: 150px;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 37px;
+    margin-left: 20px;
+    }
+   
+.footer-top div p{
+    font-size: .875rem;
+    letter-spacing: -.01em;
+    text-align: left;
+    /* color:#151719; */
+    line-height: 1.25rem;
+    padding-top: 40px;
+    margin-left: -20px;
+    color: rgb(155 169 180)
+}
+.footer-top div a{
+    color: rgb(155 169 180);
+    margin-bottom: 0.25rem;
+    font-size: .875rem;
+    letter-spacing: -.01em;
+    text-decoration: none;
+    line-height: 1.25;
+    
+}
+.footer-top div h4{
+    color: rgb(217 227 234);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    cursor: default;
+
+}
+  .footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 40px;
+  }  
+  .copy-right{
+    letter-spacing: -.01em;
+    cursor: default;
+    font-size: .875rem;
+    margin-right: 1rem;
+    color: rgb(155 169 180);
+    font-family:sans-serif;
+    margin-bottom: 0px;
+    margin-top: 58px;
+    margin-left: -10px;
+
+    
+}
+.footer-icon{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-right: 50px;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 2rem;
+    /* background-color: aliceblue; */
+    margin-top: 40px;
+}
+.footer-icon i{
+    width: 40px;
+    height: 40px;
+    background:rgb(37,40,44);
+    text-align: center;
+    color: #5d5dff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.logo1{
+    fill: #5d5dff;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    margin-left:-20px;
+}
+.svg-card{
+    width:238px;
+    height: 110px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 5px;
+
+}
+    
+
+
+
+

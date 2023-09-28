@@ -1,34 +1,18 @@
-/* svg{
-    display: block;
-    vertical-align: middle;
-  
-  }
-  
-  .absolute {
-    position: absolute;
-  }
-  audio, canvas, embed, iframe, img, object, svg, video {
-    display: block;
-    vertical-align: middle;
-  }
-  .transform {
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-  .translate-x-1\/2 {
-    --tw-translate-x: 50%;
-  }
-  .-mr-16 {
-    margin-right: -4rem;
-  } */
+*{
+  margin: 0;
+  padding: 0;
+
+}
   .container{
+    margin-top: 20px;
     text-align: center;
     height: 100%;
-    width: 100%;
-    padding: 60px 0px 64px;
+    width: 80%;
+    padding: 80px 0px 64px;
     display: block;
     flex-direction: column;
     justify-content: center;
- 
+    margin: auto;
   }
   h1{
     color: #D9E3EA;
@@ -41,6 +25,13 @@
 
     
   }
+  .svg-nav{
+    position: absolute;
+          
+          width:30%;
+    top: 0px;
+   right: 0px;
+}
   .para{
     font-size: 1.50rem;
     margin-bottom: 2rem;
@@ -49,38 +40,42 @@
     color: #f0f2f569;
     display: block
   }
+  
   .start{
     color: #ffffff;
     background: #5D5dFF;
-    /* padding:12px 32px; */
+    padding:12px 32px;
     height:48px;
-    width: 170px;
+    padding: 12px 32px;
     border: none;
     border-radius: 0.125rem;
-
+    /* padding: 0.75rem 2rem; */
+    
   }
   .learn{
     color: #ffffff;
     background:rgb(51,54,58);
-    /* padding:12px 32px; */
+    padding:12px 32px;
     height:48px;
-    width: 170px;
+    margin-left: 5px;
     border: none;
-    margin-left: 10px;
-    border-radius: 0.125rem}
+    margin-top: 12px;
+    border-radius: 0.125rem
+  }
 
 
     .Home-image{
       position: relative;
-      display: block;
+      /* display: block; */
       text-align: center;
-      width: 1024px;
+      width: 80%;
       height: 576px;
     /* height: auto; */
-    margin: 0px 60px 0px 151px;
+    /* margin: 0px 60px 0px 151px; */
     background-image: url("https://open.cruip.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-01.1f6edd86.jpg&w=1080&q=75");
-  
-  
+     background-repeat: no-repeat;
+      margin: auto;
+      margin-bottom: 40px;
   
   }
     .circle-home{
@@ -112,6 +107,29 @@
     letter-spacing: -.01em;
       
     
+}
+@media  screen  and (max-width:767px){
+  h1{
+    font-size: 2.5rem;
+  }
+  .home-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20rem;
+
+  }
+  .heading{
+    font-size: 2.2rem;
+  }
+  .para{
+    font-size: 1rem;
+  }
+  
+  
+ 
 }
 
      

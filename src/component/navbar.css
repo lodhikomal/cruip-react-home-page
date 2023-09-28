@@ -1,24 +1,30 @@
-.header{
-    height: 70px;
-    
-}
+ 
 .navbar{
     height: 60px;
-    margin: 10px;    
-    /* background-color: aliceblue; */
-    border-radius: 20px;
+       border-radius: 20px;
+    justify-content: space-around;
     display: flex;
-    justify-content:right;
-    margin-left: 76px;
-    width: 86%;
+    position: relative;
+    
+    /* background-colo  r: aliceblue; */
+}
+.main_navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 90px;
 }
 .nav-items{
      display: flex;/* background-color: aliceblue; */
       
-       padding-top: 17px;
+       padding: 10px;
     text-decoration: none;
     list-style: none;
 }
+.nav-icon{
+    display: none;
+}
+
 .btn{
     height: 40px;
     width:80px;
@@ -43,30 +49,49 @@
     align-items: center;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     font-size: 1rem;
     cursor: pointer;
 }
-/* i{
-    height: 40px;
-    width:80px;
-    font-weight: 500;
-    background-color:rgb(93,93,255);
-    border: none;
-    border-radius: 20px;
-    fill: rgb(155, 97, 97);
-
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    margin-left: 0px;
-    font-size: 1rem;
-    cursor: pointer;
-} */
+ 
+    
+ 
    .logo{
     fill: #5d5dff;
     width: 40px;
     height: 40px;
-    margin-right: 700px;
+    
+    padding-top: 12px;
+}
+
+
+@media  screen  and (max-width:767px){
+    .nav-items{
+     display: none;
+     flex-direction: column;
+     background: red;
+     padding: 10px 40px;
+   }
+   .navbar{
+    justify-content: space-between;
+    /* margin-left: 76px; */
+    /* width: 100%; */
+    padding: 0 31px;
+    margin-left: 0;
+   }
+ 
+   .logo{
+    min-width: 40px;
+    min-height: 40px;
+   }
+   .nav-icon{
+    background: red;
+    height: 30px;
+    width: 20px;
+   
+    padding: 10px;
+   }
+   
 }
    
 

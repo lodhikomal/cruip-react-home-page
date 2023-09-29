@@ -1,139 +1,119 @@
-*{
+* {
   margin: 0;
   padding: 0;
-
 }
-  .container{
-    margin-top: 20px;
-    text-align: center;
-    height: 100%;
-    width: 80%;
-    padding: 80px 0px 64px;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-  }
-  h1{
-    color: #D9E3EA;
-    font-size: 3.25rem;
-    margin-bottom: 1rem;
-    font-weight: 800;
-    line-height: 1.25;
-    letter-spacing: -.01em;
-  
-
-    
-  }
-  .svg-nav{
-    position: absolute;
-          
-          width:30%;
-    top: 0px;
-   right: 0px;
+.container {
+  margin-top: 20px;
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  padding: 80px 0px 64px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
 }
-  .para{
-    font-size: 1.50rem;
-    margin-bottom: 2rem;
-    font-family: var(--font-inter),sans-serif;
-    margin: 0px 0px 32px;
-    color: #f0f2f569;
-    display: block
-  }
-  
-  .start{
-    color: #ffffff;
-    background: #5D5dFF;
-    padding:12px 32px;
-    height:48px;
-    padding: 12px 32px;
-    border: none;
-    border-radius: 0.125rem;
-    /* padding: 0.75rem 2rem; */
-    
-  }
-  .learn{
-    color: #ffffff;
-    background:rgb(51,54,58);
-    padding:12px 32px;
-    height:48px;
-    margin-left: 5px;
-    border: none;
-    margin-top: 12px;
-    border-radius: 0.125rem
-  }
-
-
-    .Home-image{
-      position: relative;
-      /* display: block; */
-      text-align: center;
-      width: 80%;
-      height: 576px;
-    /* height: auto; */
-    /* margin: 0px 60px 0px 151px; */
-    background-image: url("https://open.cruip.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-01.1f6edd86.jpg&w=1080&q=75");
-     background-repeat: no-repeat;
-      margin: auto;
-      margin-bottom: 40px;
-  
-  }
-    .circle-home{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      right: 50%;
-      bottom: 50%;
-      z-index: 55%;
-      height: 80px;
-      width: 80px;
-    }
-    .home-svg{
-      position: absolute;
-      overflow: hidden;
-      top: 79px;
-      left: -146px;
-      z-index: -1;
-    }
-    .heading
-    {
-      margin: 0px 0px 16px;
-      color: #D9E3EA;
-      font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 1rem;
-      font-weight: 1000;
-    line-height: 1.25;
-    letter-spacing: -.01em;
-      
-    
+h1 {
+  color: #d9e3ea;
+  font-size: 3.25rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
-@media  screen  and (max-width:767px){
-  h1{
+.svg-nav {
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+  top: 0px;
+  right: 0px;
+}
+.para {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-inter), sans-serif;
+  margin: 0px 0px 32px;
+  color: #f0f2f569;
+  display: block;
+}
+
+.start {
+  color: #ffffff;
+  background: #5d5dff;
+  padding: 12px 32px;
+  height: 48px;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 0.125rem;
+  /* padding: 0.75rem 2rem; */
+}
+.learn {
+  color: #ffffff;
+  background: rgb(51, 54, 58);
+  padding: 12px 32px;
+  height: 48px;
+  margin-left: 5px;
+  border: none;
+  margin-top: 12px;
+  border-radius: 0.125rem;
+}
+
+.Home-image {
+  position: relative;
+  /* display: block; */
+  text-align: center;
+  width: 80%;
+  height: 576px;
+  /* height: auto; */
+  /* margin: 0px 60px 0px 151px; */
+  background-image: url("https://open.cruip.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-image-01.1f6edd86.jpg&w=1080&q=75");
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.circle-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  z-index: 55%;
+  height: 80px;
+  width: 80px;
+}
+.home-svg {
+  position: absolute;
+  overflow: hidden;
+  top: 79px;
+  left: -146px;
+  z-index: -1;
+}
+.heading {
+  margin: 0px 0px 16px;
+  color: #d9e3ea;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 1000;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+@media screen and (max-width: 767px) {
+  h1 {
     font-size: 2.5rem;
   }
-  .home-btn{
+  .home-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 20rem;
-
   }
-  .heading{
+  .heading {
     font-size: 2.2rem;
   }
-  .para{
+  .para {
     font-size: 1rem;
   }
-  
-  
- 
 }
-
-     
-
-    
-  
- 

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lodhikomal/cruip-react-home-page.git/static/css/main.6c7205cb.css",
-    "main.js": "/lodhikomal/cruip-react-home-page.git/static/js/main.a9158f71.js",
+    "main.css": "/lodhikomal/cruip-react-home-page.git/static/css/main.554beb3c.css",
+    "main.js": "/lodhikomal/cruip-react-home-page.git/static/js/main.e75bde24.js",
     "static/js/787.3e7dd89d.chunk.js": "/lodhikomal/cruip-react-home-page.git/static/js/787.3e7dd89d.chunk.js",
     "static/media/logo.svg": "/lodhikomal/cruip-react-home-page.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lodhikomal/cruip-react-home-page.git/index.html",
-    "main.6c7205cb.css.map": "/lodhikomal/cruip-react-home-page.git/static/css/main.6c7205cb.css.map",
-    "main.a9158f71.js.map": "/lodhikomal/cruip-react-home-page.git/static/js/main.a9158f71.js.map",
+    "main.554beb3c.css.map": "/lodhikomal/cruip-react-home-page.git/static/css/main.554beb3c.css.map",
+    "main.e75bde24.js.map": "/lodhikomal/cruip-react-home-page.git/static/js/main.e75bde24.js.map",
     "787.3e7dd89d.chunk.js.map": "/lodhikomal/cruip-react-home-page.git/static/js/787.3e7dd89d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c7205cb.css",
-    "static/js/main.a9158f71.js"
+    "static/css/main.554beb3c.css",
+    "static/js/main.e75bde24.js"
   ]
 }
